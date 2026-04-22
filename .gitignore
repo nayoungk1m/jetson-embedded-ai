@@ -1,0 +1,7 @@
+engines/
+imagenet-mini/
+imagenet-mini-subset/
+logs/
+models/
+tensorboard_log/
+tensorboard/
