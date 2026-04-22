@@ -40,8 +40,8 @@ def main():
     avg_ms = sum(times) / len(times)
     fps = 1000 / avg_ms
 
-    print(f"PyTorch avg latency: {avg_ms:.3f} ms")
-    print(f"PyTorch FPS: {fps:.2f}")
+    print(f"ResNet18 PyTorch avg latency: {avg_ms:.3f} ms")
+    print(f"ResNet18 PyTorch FPS: {fps:.2f}")
 
 if __name__ == "__main__":
     main()
